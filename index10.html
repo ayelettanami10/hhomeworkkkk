@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+const arr1 = [0, 30, 100];
+const celsiusTemps = arr1.map(num => (num * 9/5)+32);
+document.write(celsiusTemps + "<br>");
+
+const arr2  = ["Alice", "Bob", "Charlie"];
+const names = arr2.map(word => "Hello" +" " + word);
+document.write(names + "<br>");
+
+const arr3 =  [2, -4, 5, -8];
+const numbers = arr3.map(nuum => nuum *(-1));
+document.write(numbers + "<br>");
+
+const arr4 = [10, 20, 30, 40];
+let sum = 0;
+arr4.forEach(forr => sum += forr);
+document.write(sum + "<br>");
+
+const arr5 = ['JavaScript', 'is', 'awesome'];
+const result = arr5.join(' ');
+document.write(result + "<br>");
+
+const arr6 = [2, 4, 6, 8, 10];
+const allEven = arr6.every(num => num % 2 === 0);
+document.write(allEven ? "All numbers are even." : "Not all numbers are even.");
+
+
+    </script>
+</body>
+</html>
+  
